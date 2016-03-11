@@ -1,0 +1,11 @@
+body{
+    background: url(background.png);
+}
+
+#logo{
+    display: block;
+    width: 628px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

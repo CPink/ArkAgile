@@ -1,0 +1,26 @@
+{
+  "name": "ArkAgile",
+  "homepage": "https://github.com/CPink/ArkAgile",
+  "authors": [
+    "CPink <cepinkerton.85@gmail.com>"
+  ],
+  "description": "todo app for Ark: Survival Evolved",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "bootstrap-material-design": "^0.5.9",
+    "firebase": "^2.4.1",
+    "angular-ui-router": "^0.2.18",
+    "angularfire": "^1.1.4"
+  }
+}

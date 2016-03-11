@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <img id="logo" src="assets/images/Agilelogos.png" alt="Logo">
+    </div>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <form class="form-group" ng-submit="lc.login(lc.user)">
+                <div class="panel panel-default">
+                    <div class="form-group">
+                        <div class="panel-heading">
+                            <label class="control-label" for="email">Email:</label>
+                        </div>
+                        <div class="panel-body">
+                            <input type="email" class="form-control" ng-model="lc.user.email" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="form-group">
+                        <div class="panel-heading">
+                            <label class="control-label" for="password">Password:</label>
+                        </div>
+                        <div class="panel-body">
+                            <input type="password" class="form-control" ng-model="lc.user.password" id="inputPassword" placeholder="Password">
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0)" class="btn btn-raised btn-success" ng-click="lc.login(lc.user)">Login</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-warning" ng-click="lc.register(lc.user)">Register</a>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
